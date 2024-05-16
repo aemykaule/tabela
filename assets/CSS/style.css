@@ -1,0 +1,136 @@
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**Variavel**/
+
+:root{
+    --color-nao-metais: #4603b1;
+    --color-gases-nobres: #277da1;
+    --color-metais-alcalinos: #E20808;
+    --color-metais-alcalinos-terrosos: #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --color-text: #fff;
+}
+/*mobile*/
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: var(--color-text);
+}
+
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--color-gases-nobres);
+}
+.metaisAlcalinos{
+    background-color: var(--color-metais-alcalinos);
+}
+.metaisAlcalinosTerrosos{
+    background-color: var(--color-metais-alcalinos-terrosos);
+}
+.semiMetais{
+    background-color: var(--color-semimetais);
+}
+.halogenios{
+    background-color: var(--color-halogenios);
+}
+.outrosMetais{
+    background-color: var(--color-outros-metais);
+}
+.metaisTransicao{
+    background-color: var(--color-metais-transicao);
+}
+.lantanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinidios{
+    background-color: var(--color-actinidios);
+}
+.estilo{
+    border-radius: 10px;
+    padding: 5px;
+}
+.right
+{
+    text-align: right;
+}
+/*desktop*/
+@media screen and (min-width: 600px ){
+    .linha01,
+    .linha02,
+    .linha03,
+    .linha04,
+    .linha05,
+    .linha06,
+    .linha07{
+        display: flex;
+        justify-content: space-between;
+    }
+    .elementoesq,
+    .elementodir{
+        display: flex;
+    }
+    .linha08,
+    .linha09{
+        display: flex;
+        justify-content: end;
+    }
+    .linha10{
+        background-color: var(--color-nao-metais);
+    }
+    .linha11{
+        background-color: var(--color-gases-nobres);
+    }
+    .linha12{
+        background-color: var(--color-metais-alcalinos);
+    }
+    .linha13{
+        background-color: var(--color-metais-alcalinos-terrosos);
+    }
+    .linha14{
+        background-color: var(--color-semimetais);
+    }
+    .linha15{
+        background-color: var(--color-halogenios);
+    }
+    .linha16{
+        background-color: var(--color-outros-metais);
+    }
+    .linha17{
+        background-color: var(--color-metais-transicao);
+    }
+    .linha18{
+        background-color: var(--color-lantanideos);
+    }
+    .linha19{
+        background-color: var(--color-actinidios);
+    }
+    .linha10,
+    .linha11,
+    .linha12,
+    .linha13,
+    .linha14,
+    .linha15,
+    .linha16,
+    .linha17,
+    .linha18,
+    .linha19{
+        display: flex;
+        width: 150px;
+        height: 80px;
+        margin: 5px;
+    }
+}
+
+
